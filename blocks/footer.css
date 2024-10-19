@@ -1,4 +1,4 @@
-.footer__copyright {
+.footer {
   display: flex;
   justify-content: center;
   max-width: 194px;
@@ -9,8 +9,8 @@
   color: #ffffff;
 }
 
-@media (max-width:320px){
-  .footer__copyright{
+@media (max-width: 320px) {
+  .footer__copyright {
     line-height: 14px;
   }
 }
