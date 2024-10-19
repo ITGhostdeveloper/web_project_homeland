@@ -1,20 +1,4 @@
 @font-face {
-  src: url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-  font-family: "inter";
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: InterVariable;
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("InterVariable.woff2") format("woff2");
-}
-@font-face {
-  font-family: InterVariable;
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url("InterVariable-Italic.woff2") format("woff2");
+  font-family: inter;
+  src: url(../fonts/inter/Inter.ttc);
 }

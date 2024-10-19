@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   justify-content: center;
+  font-family: "inter";
   max-width: 194px;
   width: 100%;
   margin: auto;

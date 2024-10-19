@@ -5,7 +5,9 @@
 .intro__title {
   max-width: 830px;
   width: 100%;
-  font-family: "Inter";
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: "inter";
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -18,7 +20,9 @@
 .intro__text-quote {
   max-width: 738px;
   width: 100%;
-  font-family: "Inter";
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: "inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -31,7 +35,9 @@
 .intro__text-author {
   max-width: 732px;
   width: 100%;
-  font-family: "Inter";
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: "inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -44,7 +50,9 @@
 .intro__text-paragraph {
   max-width: 722px;
   width: 100%;
-  font-family: "Inter";
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: "inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -56,21 +64,21 @@
 @media (max-width: 768px) {
   .intro__title {
     font-size: 2.8rem;
-    line-height: 1.5;
+    line-height: 1.2;
   }
 }
 
 @media (max-width: 320px) {
   .intro__title {
     font-size: 2rem;
-    line-height: 1;
+    line-height: 1.2;
   }
 }
 
 @media (max-width: 320px) {
   .intro__text-quote {
     font-size: 1.5rem;
-    line-height: 1.25;
+    line-height: 1.5;
   }
 }
 
