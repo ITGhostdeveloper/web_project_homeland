@@ -62,7 +62,12 @@
 }
 
 .place__frame:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
+
   opacity: 0.5;
 }
 
@@ -85,7 +90,7 @@
   grid-area: website;
 }
 
-.place__website_url-heading {
+.place__url-heading {
   width: 85.17px;
   width: 100%;
   font-family: "Inter";
@@ -99,7 +104,7 @@
   margin: auto auto 8px 0;
 }
 
-.place__website_artist {
+.place__artist {
   max-width: 455.53px;
   width: 100%;
   font-family: "Inter";
@@ -159,7 +164,7 @@
     line-height: 0.91;
   }
 
-  .place__website_artist {
+  .place__artist {
     font-size: 1.05rem;
     line-height: 1.3;
   }
